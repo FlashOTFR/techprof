@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./images/cool-background.png');
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin: auto;
+}
+.center {
+  display: flex;
+  flex: 1 0 auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  height: 600px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-style: solid;
+  border-color: #dddddd;
 }
