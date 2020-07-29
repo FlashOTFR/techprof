@@ -8,11 +8,11 @@ class Contact extends Component {
         return (
             <div> 
                 <Navbar />
-            <div class="container">
-                <div class="row">
+            <div className="container">
+                <div className="row">
 
-                    <div class="col-md-12">
-                        <div class="center"> 
+                    <div className="col-md-12">
+                        <div className="center"> 
                             <h1>CONTACT ME</h1>
                             <br />
                             <br />

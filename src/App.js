@@ -9,7 +9,10 @@ import Home from './components/Home';
 
 class App extends Component {
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
+    homeActive: true,
+    contactActive: false,
+    portfolioActive: false
   };
 
   drawerToggleClickHandler = () => {
@@ -38,7 +41,6 @@ class App extends Component {
       <main style={{marginTop: '64px'}}>        
       <Home />
       </main>
-      <Footer />
     </div>
     )}
 

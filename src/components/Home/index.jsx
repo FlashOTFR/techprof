@@ -7,16 +7,13 @@ class Home extends Component {
         return ( 
             <div>
 
-<div class="container">
-    <div class="row">
+<div className="container">
+    <div className="row">
 
-        <div class="col-md-12">
-            <div class="center-home"> 
-            <h1>WELCOME!</h1>
-            <img src={Pic} class='pic' />
-            <br />
-            <br />
-            <p></p>
+        <div className="col-md-12">
+            <div className="center-home"> 
+            <h1 className="name">RANDALL BURGESS</h1>
+            <img src={Pic} className='pic' />
             </div>
         </div>
 

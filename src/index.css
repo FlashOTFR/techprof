@@ -14,22 +14,21 @@ body {
   height: 300px;
   width: 300px;
   border-radius: 50%;
-  margin: auto;
 }
+
 .center-home {
   display: flex;
-  flex: 1 0 auto;
-  margin: 10% 0;
   height: 600px;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color: peachpuff;
-  border-style: solid;
-  border-color: #dddddd;
-  border-radius: 16px 16px 16px 16px;
-  padding: 10%;
-  box-shadow: 5px 5px rgba(0, 0, 0 ,0.2);
+  color: #FFF;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+.name {
+  font-size: 100px;
 }
   
 footer {
