@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './style.css';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
 
@@ -8,13 +9,13 @@ class Portfolio extends Component {
         return ( 
             <div>
                 <Navbar />
-            <div class="container">
-    <div class="row">
+            <div className="container">
+    <div className="row">
 
-        <div class="col-md-12">
-            <section class="center"> 
+        <div className="col-md-12">
+            <section className="center"> 
                 <h1>Welcome to my portfolio page! If you are here, you probably have an interest in seeing some of my work! Feel free to peruse some of my projects located here. Or if you prefer, you can check out my github by clicking the link in the footer!</h1>
-            <div class="list">
+            <div className="list">
 
                 <ul>
                     <li>
