@@ -18,7 +18,7 @@ class Home extends Component {
 
                 <img src={Pic} className='pic' />
 
-                <Timer date={new Date()}/>
+                <Timer />
             </div>
         </div>
 
