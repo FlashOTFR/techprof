@@ -1,7 +1,10 @@
 .pic {
   height: 300px;
-  width: 300px;
-  border-radius: 50%;
+  width: 50%;
+  border-radius: 16px 16px 16px 16px;
+  margin-top: 5%;
+  border-style: solid;
+  border-color: white;
   }
 
 .center-home {
@@ -18,4 +21,8 @@
 
 .name {
   font-size: 100px;
+}
+
+.center-home h1 {
+  margin-top: 20%;
 }

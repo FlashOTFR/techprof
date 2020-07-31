@@ -1,5 +1,5 @@
 import React, { Component } from 'react';   
-import Pic from './picture-min.jpg';
+import Pic from '../assets/picture-min.jpg';
 import Timer from '../Timer';
 import './style.css';
 
@@ -17,8 +17,9 @@ class Home extends Component {
                 <h1 className="name">RANDALL BURGESS</h1>
 
                 <img src={Pic} className='pic' />
-
-                <Timer date={new Date()}/>
+                <div className="time">
+                    <Timer />
+                </div>
             </div>
         </div>
 

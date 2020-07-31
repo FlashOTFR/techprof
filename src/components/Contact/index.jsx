@@ -1,39 +1,55 @@
 import React, { Component } from 'react';
 import './style.css';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
 
 class Contact extends Component {
     state = {  }
     render() { 
         return (
-            <div> 
-                <Navbar />
             <div className="container">
+                
                 <div className="row">
-
                     <div className="col-md-12">
-                        <div className="center"> 
+                        <div className="logo-box">
                             <h1>CONTACT ME</h1>
-                            <br />
-                            <br />
-            <h2>Email:</h2>
-            <h3>randallallenburgess@gmail.com</h3>
-            <br />
-            <h2>Phone Number:</h2>
-            <h3>(360)402-2780</h3>
-            <br />
-            <a href="https://www.linkedin.com/in/randall-burgess-a93a8451/"><h3>LinkedIn</h3></a>
-            <a href="https://github.com/FlashOTFR"><h3>GitHub</h3></a>
-            </div>
-        </div>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
-</div>
-    <Footer />
-</div>
+                <div className="row">
+<div className="col-md-4"></div>
+<div className="col-md-4"></div>
+                    
+                    <div className="col-md-4">
+                        <div className="contact-box">
+                            <div className="contact-box-content">
+                                <ul>
+                                    <li>
+                                        <h2>Email:</h2>
+                                        <h3>randallallenburgess@gmail.com</h3>
+                                    </li>
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        <h2>Phone Number:</h2>
+                                        <h3>(360)402-2780</h3>
+                                    </li>
+                                    <br/>
+                                    <br/>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/randall-burgess-a93a8451/"><h3>LinkedIn</h3></a>
+                                        <a href="https://github.com/FlashOTFR"><h3>GitHub</h3></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+            </div>
          );
     }
 }
  
 export default Contact;
+

@@ -1,0 +1,36 @@
+.logo-box {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+
+.logo-box h1 {
+    font-size: 80px;
+}
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+}
+
+.contact-box-content {
+    color: white;
+}
+
+h2 {
+    font-size: 45px;
+}
+
+h3 {
+    font-size: 55px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: orange;
+}
