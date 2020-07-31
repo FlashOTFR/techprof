@@ -1,5 +1,5 @@
 import React, { Component } from 'react';   
-import Pic from './picture-min.jpg';
+import Pic from '../assets/picture-min.jpg';
 import Timer from '../Timer';
 import './style.css';
 

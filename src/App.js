@@ -1,18 +1,17 @@
 import React, { Component } from 'react'; 
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { render } from '@testing-library/react';
 import Toolbar from './components/Toolbar';
 import SideDrawer from './components/SideDrawer';
 import Backdrop from './components/Backdrop';
 import DrawerToggleButton from './components/DrawerToggleButton';
-import Footer from './components/Footer';
 import Home from './components/Home';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
 class App extends Component {
   state = {
     sideDrawerOpen: false,
-    homeActive: true,
-    contactActive: false,
-    portfolioActive: false
   };
 
   drawerToggleClickHandler = () => {
@@ -33,15 +32,20 @@ class App extends Component {
       
     }
     return (
-
-    <div style={{height: '100%'}}>
-      <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-      <SideDrawer show={this.state.sideDrawerOpen} />
-      {backdrop}
-      <main style={{marginTop: '64px'}}>        
-      <Home show={this.state.homeActive} />
-      </main>
-    </div>
+    <Router>
+      <div style={{height: '100%'}}>
+        <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
+        <SideDrawer show={this.state.sideDrawerOpen} />
+        {backdrop}
+        <main style={{marginTop: '64px'}}>        
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/contact" exact component={Contact} />
+            <Route path="/portfolio" exact component={Portfolio} />
+          </Switch>
+        </main>
+      </div>
+    </Router>
     )}
 
 

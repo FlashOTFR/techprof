@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import './style.css';
-import Navbar from '../Navbar';
-import Footer from '../Footer';
+
 
 class Portfolio extends Component {
     state = {  }
     render() { 
         return ( 
             <div>
-                <Navbar />
             <div className="container">
     <div className="row">
 
@@ -49,7 +47,6 @@ class Portfolio extends Component {
 
     </div>
 </div>
-<Footer />
 </div>
          );
     }
