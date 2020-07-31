@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "baf47a6b3b2c42da5eeacedf634539d0",
+    "revision": "3373fe8f8d823e974bc6f1e87edb3ce0",
     "url": "/techprof/index.html"
   },
   {
-    "revision": "3ec12e323f906189bda8",
-    "url": "/techprof/static/css/main.764b2f34.chunk.css"
+    "revision": "5999270adb28a7eb9ef9",
+    "url": "/techprof/static/css/main.a49c8cd7.chunk.css"
   },
   {
-    "revision": "c55e4e6cbbdd4450876e",
-    "url": "/techprof/static/js/2.110f9584.chunk.js"
+    "revision": "233f4ba2e60298f6ad09",
+    "url": "/techprof/static/js/2.66169e69.chunk.js"
   },
   {
-    "revision": "6287c65a6963df837d60dc49bb220910",
-    "url": "/techprof/static/js/2.110f9584.chunk.js.LICENSE.txt"
+    "revision": "dd207babaeb913476be46155cc504ef5",
+    "url": "/techprof/static/js/2.66169e69.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3ec12e323f906189bda8",
-    "url": "/techprof/static/js/main.23a872e1.chunk.js"
+    "revision": "5999270adb28a7eb9ef9",
+    "url": "/techprof/static/js/main.758b629d.chunk.js"
   },
   {
     "revision": "b1ece0db6afd19f3582b",
