@@ -17,8 +17,9 @@ class Home extends Component {
                 <h1 className="name">RANDALL BURGESS</h1>
 
                 <img src={Pic} className='pic' />
-
-                <Timer />
+                <div className="time">
+                    <Timer />
+                </div>
             </div>
         </div>
 
