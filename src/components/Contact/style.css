@@ -33,14 +33,21 @@
     padding: 10%;
 }
 
-h2 {
+.contact-text h2 {
     font-size: 45px;
 
 }
 
-h3 {
+.contact-text h3 {
     font-size: 55px;
     
+}
+
+.contact-box-content h2 {
+    font-size: 45px;
+}
+.contact-box-content h3 {
+    font-size: 55px;
 }
 
 .contact-box-content ul {
@@ -57,4 +64,5 @@ h3 {
 .contact-box-content a:hover,
 .contact-box-content a:active {
     color: orange;
+    text-decoration: none;
 }

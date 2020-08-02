@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 
+
 class App extends Component {
   state = {
     sideDrawerOpen: false,
@@ -32,20 +33,21 @@ class App extends Component {
       
     }
     return (
-    <Router>
-      <div style={{height: '100%'}}>
-        <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
-        <SideDrawer show={this.state.sideDrawerOpen} />
-        {backdrop}
-        <main style={{marginTop: '64px'}}>        
-          <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/contact" exact component={Contact} />
-            <Route path="/portfolio" exact component={Portfolio} />
-          </Switch>
-        </main>
-      </div>
-    </Router>
+      <Router>
+        <div style={{height: '100%'}}>
+          <Toolbar drawerClickHandler={this.drawerToggleClickHandler}/>
+          <SideDrawer show={this.state.sideDrawerOpen} />
+          {backdrop}
+          <main style={{marginTop: '64px'}}>        
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/techprof" exact component={Home} />
+              <Route path="/contact" exact component={Contact} />
+              <Route path="/portfolio" exact component={Portfolio} />
+            </Switch>
+          </main>
+        </div>
+      </Router>
     )}
 
 
