@@ -27,10 +27,7 @@
     justify-content: center;
     margin-top: 30%;
     text-align: center;
-    background-color: rgb(250, 184, 184);
-    border-style: solid;
-    border-radius: 16px 16px 16px 16px;
-    padding: 10%;
+    color: white;
 }
 
 .contact-text h2 {
@@ -52,9 +49,7 @@
 
 .contact-box-content ul {
     list-style-type: none;
-    background-color: rgb(250, 184, 184);
-    border-style: solid;
-    border-radius: 16px 16px 16px 16px;
+    color: white;
 }
 
 .contact-box-content a {

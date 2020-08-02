@@ -16,20 +16,20 @@ const Portfolio = () => {
 
     const renderCard = (card, index) => {
         return(
-            <Card style={{ width: '18rem' }} key={index}>
-                <Card.Img variant="top" src={card.image} />
+            <Card style={{ width: '18rem' }} key={index} className="box">
+                <Card.Img variant="top"/>
                 <Card.Body>
                     <Card.Title>{card.title}</Card.Title>
                     <Card.Text>
                     {card.text}
                     </Card.Text>
-                    <Button variant="primary" href={card.link}>Go somewhere</Button>
+                    <Button variant="primary" href={card.link}>Check it out!</Button>
                 </Card.Body>
             </Card> 
         )
     }    
-        return ( 
-            <div>
+    return ( 
+        <div>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
@@ -37,7 +37,8 @@ const Portfolio = () => {
                                 <div className="center-text">
                                     <h1>Welcome to my portfolio page! If you are here, you probably have an interest in seeing some of my work! Feel free to peruse some of my projects located here. Or if you prefer, you can check out my github by visiting the contact page!</h1>
                                 </div> 
-                                    {cardInfo.map(renderCard)}
+                                
+        <div className="grid">{cardInfo.map(renderCard)}</div>
                                 
                                 </section>
                             </div>
