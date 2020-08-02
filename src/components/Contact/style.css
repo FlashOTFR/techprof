@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     color: white;
+    margin-top: 10%
 }
 
 
@@ -13,24 +14,47 @@
     display: flex;
     justify-content: center;
     margin-top: 30%;
+    text-align: center;
+    padding: 10%;
 }
 
 .contact-box-content {
-    color: white;
+    padding: 10%;
+}
+
+.contact-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%;
+    text-align: center;
+    background-color: rgb(250, 184, 184);
+    border-style: solid;
+    border-radius: 16px 16px 16px 16px;
+    padding: 10%;
 }
 
 h2 {
     font-size: 45px;
+
 }
 
 h3 {
     font-size: 55px;
+    
 }
 
-ul {
+.contact-box-content ul {
     list-style-type: none;
+    background-color: rgb(250, 184, 184);
+    border-style: solid;
+    border-radius: 16px 16px 16px 16px;
 }
 
-a {
+.contact-box-content a {
+    text-decoration: none;
+}
+
+.contact-box-content a:hover,
+.contact-box-content a:active {
     color: orange;
 }
