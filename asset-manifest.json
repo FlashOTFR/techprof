@@ -1,24 +1,28 @@
 {
   "files": {
-    "main.css": "/techprof/static/css/main.a49c8cd7.chunk.css",
-    "main.js": "/techprof/static/js/main.758b629d.chunk.js",
-    "main.js.map": "/techprof/static/js/main.758b629d.chunk.js.map",
+    "main.css": "/techprof/static/css/main.15b7c105.chunk.css",
+    "main.js": "/techprof/static/js/main.35459054.chunk.js",
+    "main.js.map": "/techprof/static/js/main.35459054.chunk.js.map",
     "runtime-main.js": "/techprof/static/js/runtime-main.b98c28a9.js",
     "runtime-main.js.map": "/techprof/static/js/runtime-main.b98c28a9.js.map",
-    "static/js/2.66169e69.chunk.js": "/techprof/static/js/2.66169e69.chunk.js",
-    "static/js/2.66169e69.chunk.js.map": "/techprof/static/js/2.66169e69.chunk.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/techprof/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.36ec0660.chunk.js": "/techprof/static/js/2.36ec0660.chunk.js",
+    "static/js/2.36ec0660.chunk.js.map": "/techprof/static/js/2.36ec0660.chunk.js.map",
     "index.html": "/techprof/index.html",
-    "precache-manifest.3658483f2652fe0cdfede610eabc32b2.js": "/techprof/precache-manifest.3658483f2652fe0cdfede610eabc32b2.js",
+    "precache-manifest.781e70a678faaba937a20b94ef8b8fae.js": "/techprof/precache-manifest.781e70a678faaba937a20b94ef8b8fae.js",
     "service-worker.js": "/techprof/service-worker.js",
-    "static/css/main.a49c8cd7.chunk.css.map": "/techprof/static/css/main.a49c8cd7.chunk.css.map",
-    "static/js/2.66169e69.chunk.js.LICENSE.txt": "/techprof/static/js/2.66169e69.chunk.js.LICENSE.txt",
+    "static/css/2.af3c1da9.chunk.css.map": "/techprof/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.15b7c105.chunk.css.map": "/techprof/static/css/main.15b7c105.chunk.css.map",
+    "static/js/2.36ec0660.chunk.js.LICENSE.txt": "/techprof/static/js/2.36ec0660.chunk.js.LICENSE.txt",
+    "static/media/comicall.png": "/techprof/static/media/comicall.ad498db3.png",
     "static/media/index.css": "/techprof/static/media/cool-background.0c805cc5.png",
     "static/media/picture-min.jpg": "/techprof/static/media/picture-min.7d1c0542.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b98c28a9.js",
-    "static/js/2.66169e69.chunk.js",
-    "static/css/main.a49c8cd7.chunk.css",
-    "static/js/main.758b629d.chunk.js"
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.36ec0660.chunk.js",
+    "static/css/main.15b7c105.chunk.css",
+    "static/js/main.35459054.chunk.js"
   ]
 }
