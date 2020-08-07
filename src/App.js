@@ -39,12 +39,10 @@ class App extends Component {
           <SideDrawer show={this.state.sideDrawerOpen} />
           {backdrop}
           <main style={{marginTop: '64px'}}>        
-            <Switch>
-              <Route path="/" exact component={Home} />
-              <Route path="/techprof" exact component={Home} />
-              <Route path="/contact" exact component={Contact} />
-              <Route path="/portfolio" exact component={Portfolio} />
-            </Switch>
+              <Route exact path="/" component={Home} />
+              <Route exact path="/techprof" component={Home} />
+              <Route exact path="/contact" component={Contact} />
+              <Route exact path="/portfolio" component={Portfolio} />
           </main>
         </div>
       </Router>
